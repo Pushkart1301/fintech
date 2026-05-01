@@ -1,0 +1,28 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model artifacts & data (large files)
+backend/artifacts/*.pkl
+backend/artifacts/*.png
+backend/artifacts/*.json
+backend/data/*.csv
+
+# Environment
+*.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
