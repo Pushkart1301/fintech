@@ -19,7 +19,7 @@ Deploy the backend and frontend separately:
 - Configure:
   - **Name**: `finguard-api`
   - **Runtime**: `Python 3`
-  - **Build Command**: `pip install -r backend/requirements.txt && cd backend && python train.py`
+  - **Build Command**: `pip install -r backend/requirements.txt`
   - **Start Command**: `cd backend && gunicorn app:app --bind 0.0.0.0:$PORT`
   - **Plan**: Free
 

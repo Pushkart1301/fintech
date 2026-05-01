@@ -10,9 +10,8 @@ __pycache__/
 .Python
 
 # Model artifacts & data (large files)
-backend/artifacts/*.pkl
+# NOTE: .pkl model files and .json metrics ARE committed for deployment
 backend/artifacts/*.png
-backend/artifacts/*.json
 backend/data/*.csv
 
 # Environment
