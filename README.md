@@ -177,3 +177,4 @@ Sample transactions are provided in:
 - The dataset `creditcard.csv` is highly imbalanced (0.17% fraud).
 - Isolation Forest is well-suited for this anomaly detection scenario.
 - The frontend uses sample transactions to avoid manual V1-V28 input.
+# finguard-ai
